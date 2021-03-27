@@ -1,5 +1,5 @@
 {
-      "name": "GRAND OFFICIAL",
+      "name": "MEWTWO 3.0",
       "description": "An OP Telegram UserBot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X",
+   "repository": "https://github.com/pogonoob/MEWTWO-3.0",
    "addons": [
       {
          "options": {
@@ -63,12 +63,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "LEGENDX22"
+         "value": "Swami_2_0_0_5"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "LEGEND_USERBOT_SUPPORT"
+         "value": "Mewtwo1_botsupport"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -189,6 +189,6 @@
       "manager",
       "GRAND"
    ],
-   "name": "GRAND OFFICIAL",
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X"
+   "name": "MEWTWO 3.0",
+   "repository": "https://github.com/pogonoob/MEWTWO-3.0"
 }
