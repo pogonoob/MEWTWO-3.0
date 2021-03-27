@@ -65,9 +65,9 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+Hello there, I'm [MEWTWO 3.0](https://telegra.ph/file/ae5a7b751569bb8b5062e.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+I am a Pokemon Themed Group Managing Bot and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -82,14 +82,14 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add LEGEND BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            url="t.me/mewtwo3_bot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [Mewtwo 3.0](https://telegra.ph/file/ae5a7b751569bb8b5062e.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -360,10 +360,10 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @Swami_2_0_0_5.* "
+            f"\n\n 🔥 Join [Mewtwo support](https://t.me/mewtwo1_botsupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [?](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -477,7 +477,7 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @LEGENDX22 spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @Swami_2_0_0_5 spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
