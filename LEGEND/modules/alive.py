@@ -39,7 +39,7 @@ async def callback_query_handler(event):
   PROBOYX = [[Button.url("REPO-Mewtwo3.0", "https://github.com/pogonoob/MEWTWO-3.0"), Button.url("REPO-Mewtwo", "https://github.com/op-coder482/Soul-thunder-")]]
   PROBOYX +=[[Button.url("DEPLOY-Mewtwo3.0", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoo%2FMEWTWO-3.0&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FMEWTWO-3.0P%2FLE"), Button.url("DEPLOY-Mewtwo", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fop-coder482%2FSoul-thunder-&template=https%3A%2F%2Fgithub.com%2Fop-coder482%2FSoul-thunder-")]]
   PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot")
-  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwo1_botsupport"), Button.url("SUPPORT GROUP", "https://mewtwo1_botsupport")]]
+  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwo_bot1"), Button.url("SUPPORT GROUP", "https://mewtwo1_botsupport")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="Swami")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=swami)
 
